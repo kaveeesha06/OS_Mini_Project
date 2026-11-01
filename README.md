@@ -21,7 +21,6 @@ gcc -std=c11 -Wall -Wextra -O2 heatwave.c -o heatwave
 4. Experiment 4: multi-process regional prediction
 5. Experiment 6: SRTF / Round Robin scheduling simulation
 6. View forecast
-7. Additional mutual-exclusion demonstration using flock()
 0. Exit
 
 ## Suggested demonstration inputs
@@ -29,7 +28,6 @@ gcc -std=c11 -Wall -Wextra -O2 heatwave.c -o heatwave
 - Repeat with Round Robin: choose `1`, then `2`, then time quantum `2`.
 - Experiment 4 only: choose `4`, then `1` for SRTF or `2` and quantum `2` for RR.
 - Experiment 6 only: choose `5`, then `1` or `2`, then quantum `2` for RR.
-- Mutual exclusion: choose `7`.
 
 ## Output files
 - `processed/history.csv` – copied source data
